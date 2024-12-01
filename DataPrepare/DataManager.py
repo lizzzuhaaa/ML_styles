@@ -15,8 +15,8 @@ train_dataset = datasets.ImageFolder(root=train_dir, transform=data_transforms)
 test_dataset = datasets.ImageFolder(root=test_dir, transform=data_transforms)
 
 # DataLoader for batch
-train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)
-test_loader = DataLoader(test_dataset, batch_size=32, shuffle=False)
+train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True, num_workers=0, pin_memory=True)
+test_loader = DataLoader(test_dataset, batch_size=32, shuffle=False, num_workers=0, pin_memory=True)
 
 # Classes
 classes = train_dataset.classes

@@ -1,0 +1,41 @@
+Training Started
+Epoch 1/10, Loss: 1.9092, Accuracy: 38.40%
+Epoch 2/10, Loss: 1.7345, Accuracy: 43.02%
+Epoch 3/10, Loss: 1.7054, Accuracy: 43.95%
+Epoch 4/10, Loss: 1.6892, Accuracy: 44.13%
+Epoch 5/10, Loss: 1.6775, Accuracy: 44.47%
+Epoch 6/10, Loss: 1.6727, Accuracy: 44.73%
+Epoch 7/10, Loss: 1.6639, Accuracy: 45.09%
+Epoch 8/10, Loss: 1.6579, Accuracy: 45.15%
+Epoch 9/10, Loss: 1.6608, Accuracy: 44.97%
+Epoch 10/10, Loss: 1.6557, Accuracy: 45.14%
+
+Classification Report:
+                            precision    recall  f1-score   support
+
+    Abstract_Expressionism       0.49      0.53      0.51       556
+         Analytical_Cubism       0.71      0.55      0.62        22
+                   Baroque       0.37      0.56      0.45       848
+                    Cubism       0.50      0.65      0.57       490
+         Early_Renaissance       0.49      0.46      0.48       278
+             Expressionism       0.36      0.36      0.36      1347
+                   Fauvism       0.29      0.30      0.29       186
+          High_Renaissance       0.34      0.18      0.24       268
+             Impressionism       0.51      0.71      0.59      2612
+Mannerism_Late_Renaissance       0.32      0.10      0.15       255
+                Minimalism       0.71      0.79      0.75       267
+                    Modern       0.62      0.28      0.39       866
+      Northern_Renaissance       0.52      0.38      0.44       510
+               Pointillism       0.89      0.31      0.46       102
+                   Pop_Art       0.47      0.50      0.48       296
+        Post_Impressionism       0.42      0.19      0.26      1290
+               Primitivism       0.55      0.16      0.25       481
+                   Realism       0.41      0.52      0.46      2209
+                    Rococo       0.47      0.35      0.40       417
+               Romanticism       0.39      0.42      0.41      1403
+                 Symbolism       0.49      0.30      0.37       905
+                   Ukiyo_e       0.63      0.79      0.70       233
+
+                  accuracy                           0.45     15841
+                 macro avg       0.50      0.43      0.44     15841
+              weighted avg       0.46      0.45      0.44     15841
