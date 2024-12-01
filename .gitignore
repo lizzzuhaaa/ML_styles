@@ -2,3 +2,4 @@ Configurations/
 sklearn-env/
 .idea/
 Model/__pycache__
+DataPrepare/__pycache__
